@@ -42,7 +42,7 @@ export default function SearchPage(){
                     <Form.Label>Search query</Form.Label>
                     <Form.Control name="query" placeholder="E.g. cats,hotdogs. ..."
                 />
-                <Button type="submit" className="mb-3" disabled={searchResultsLoading}>Search</Button>
+                <Button type="submit" className="mb-3 mt-3" disabled={searchResultsLoading}>Search</Button>
                 </Form.Group>
             </Form>
             <div className="d-flex flex-column align-items-center">
